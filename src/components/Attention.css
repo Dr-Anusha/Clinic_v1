@@ -1,0 +1,56 @@
+.attention-container {
+  background-color: #1e4d2b;
+  color: white;
+  padding: 80px;
+  text-align: center;
+}
+
+.attention-header {
+  margin-bottom: 50px;
+}
+
+.attention-label {
+  background-color: white;
+  color: #5fa37a;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  border: 2px solid rgba(0, 0, 0, 0.671) ;
+}
+
+.attention-header h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.attention-header p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.attention-points {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.attention-point {
+  width: 25%;
+  text-align: left;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.attention-icon {
+  font-size: 1.5em;
+  color: #5fa37a;
+}

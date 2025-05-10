@@ -1,0 +1,25 @@
+.footer {
+    background-color: #134e4a; /* Dark green */
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer-text {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  .footer-brand {
+    font-weight: 600;
+    color: #a7f3d0; /* Light green for brand */
+  }
+  
+  .footer-designer {
+    font-weight: 600;
+    color: #93c5fd; /* Light blue for designer */
+  }
+  

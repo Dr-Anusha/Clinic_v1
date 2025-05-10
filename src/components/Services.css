@@ -1,0 +1,47 @@
+.services-container {
+  background-color: #153d34;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: left; /* Align text to left */
+}
+
+.service-card {
+  flex: 1;
+  max-width: 300px;
+}
+
+.service-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.service-icon {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.divider {
+  width: 1px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.2);
+}

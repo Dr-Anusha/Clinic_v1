@@ -1,0 +1,62 @@
+import React from 'react';
+import './Story.css';
+
+function Story() {
+  return (
+    <div className="story-container">
+      <div className="story-header">
+        <div className="story-label">Review</div>
+        <h2>What Our Client Say</h2>
+      </div>
+      <div className="story-reviews">
+        <div className="story-review">
+          <div className="story-stars">
+            ⭐️⭐️⭐️⭐️⭐️
+          </div>
+          <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>
+          <div className="story-reviewer">
+            <img src="/johan-duo.jpg" alt="Johan Duo" />
+            <div>
+              <h3>Johan Duo</h3>
+              <p>Professional Athlete</p>
+            </div>
+          </div>
+        </div>
+        <div className="story-review">
+          <div className="story-stars">
+            ⭐️⭐️⭐️⭐️⭐️
+          </div>
+          <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>
+          <div className="story-reviewer">
+            <img src="/jane-smith.jpg" alt="Jane Smith" />
+            <div>
+              <h3>Jane Smith</h3>
+              <p>Retired Teacher</p>
+            </div>
+          </div>
+        </div>
+        <div className="story-review">
+          <div className="story-stars">
+            ⭐️⭐️⭐️⭐️⭐️
+          </div>
+          <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>
+          <div className="story-reviewer">
+            <img src="/robert-lee.jpg" alt="Robert Lee" />
+            <div>
+              <h3>Robert Lee</h3>
+              <p>Construction Worker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="story-navigation">
+        <span className="story-dot active"></span>
+        <span className="story-dot"></span>
+        <span className="story-dot"></span>
+        <span className="story-dot"></span>
+      </div>
+    </div>
+  );
+}
+
+export default Story;

@@ -1,0 +1,89 @@
+.story-container {
+  padding: 80px;
+  text-align: center;
+  background: url('/world-map-bg.png') center/cover no-repeat;
+}
+
+.story-header {
+  margin-bottom: 50px;
+}
+
+.story-label {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.9em;
+  border: 2px solid rgba(0, 0, 0, 0.522);
+  color: #5fa37a;
+  font-weight: 600;
+}
+
+.story-header h2 {
+  font-size: 2.5em;
+  color: #1e4d2b;
+}
+
+.story-review {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.334);
+}
+
+.story-stars {
+  color: #ffc107;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.story-review p {
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.story-reviewer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.story-reviewer img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.story-reviewer h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.story-reviewer p {
+  color: #777;
+  font-size: 0.85em;
+}
+
+/* Swiper container padding for bullets */
+.story-container .swiper {
+  padding-bottom: 40px; /* Adjust for spacing under slides */
+}
+
+/* Swiper pagination (dots) */
+.swiper-pagination {
+  margin-top: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ccc;
+  opacity: 1;
+  margin: 0 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #5fa37a;
+}
